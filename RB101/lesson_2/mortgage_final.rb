@@ -1,11 +1,3 @@
-puts <<-MSG
-
------------------------------------
-WELCOME to the mortgage calculator!
------------------------------------
-
-MSG
-
 def valid_amount_input(amount)
   amount.to_i.to_s == amount
 end
@@ -17,6 +9,14 @@ end
 def valid_duration_input(duration)
   duration.to_i.to_s == duration
 end
+
+puts <<-MSG
+
+-----------------------------------
+WELCOME to the mortgage calculator!
+-----------------------------------
+
+MSG
 
 loop do
   loan_amount = ""
