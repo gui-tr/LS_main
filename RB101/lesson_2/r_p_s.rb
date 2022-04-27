@@ -1,3 +1,5 @@
+# Assignemt: Write a Rock, Paper, Scissors game.
+
 VALID_CHOICES = %w(rock paper scissors spock lizard)
 
 def prompt(message)
@@ -93,5 +95,3 @@ end
 end
 
 prompt("Thank you for playing. Good bye!")
-
-
